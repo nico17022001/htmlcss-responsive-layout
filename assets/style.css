@@ -21,10 +21,16 @@
   padding: 30px 10px;
 }
 
-.violet{
+.section-violet{
   background-color: #9792e4;
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
 }
 
+.margin-r-10{
+  margin-right: 10px;
+}
 
 /*Header*/
 header{
@@ -87,7 +93,6 @@ header ul a{
   border-radius: 20px;
 }
 
-
 .card:last-child{
   margin-bottom: 0px;
 }
@@ -118,6 +123,31 @@ header ul a{
 
   .card-container{
     width: 80%;
+  }
+}
+
+.box-container{
+  width: 100%;
+}
+
+.box{
+  background-color: yellow;
+  height: 300px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width:1160px) {
+
+  .box-container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .box{
+    width: 40%;
   }
 }
 
