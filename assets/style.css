@@ -24,8 +24,9 @@
 .section-violet{
   background-color: #9792e4;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding: 30px 10px;
+
 }
 
 .margin-r-10{
@@ -128,6 +129,9 @@ header ul a{
 
 .box-container{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box{
@@ -136,18 +140,23 @@ header ul a{
   border: 1px solid;
   margin-bottom: 10px;
   border-radius: 20px;
+  width: 100%;
 }
 
 @media screen and (min-width:1160px) {
 
   .box-container{
     display: flex;
-    width: 80%;
+    flex-direction: row;
     justify-content: center;
   }
 
   .box{
-    width: 40%;
+    width: 30%;
+  }
+
+  .box:first-child{
+    margin-right: 10px;
   }
 }
 
