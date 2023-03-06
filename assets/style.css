@@ -23,14 +23,18 @@
 
 .section-violet{
   background-color: #9792e4;
-  display: flex;
-  flex-direction: column;
-  padding: 30px 10px;
-
 }
 
 .margin-r-10{
   margin-right: 10px;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.padding-30y-10x{
+  padding: 30px 10px;
 }
 
 /*Header*/
